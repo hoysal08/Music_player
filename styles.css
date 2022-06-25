@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body
+{
+    background-color: #171717;
+}
+li
+{
+    list-style: none;
+   
+}
+nav ul li{
+    padding: 0px 12px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+nav
+{
+ font-family:'Open Sans', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+     color: white; 
+}
+.brand img
+{
+  width:45px;
+  padding:0px 8px;
+}
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.container
+{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family:'Open Sans', sans-serif;
+    width: 70%;
+    display: flex;
+    margin:  23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(R.jpg);
+}
+.footer
+{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icons
+{
+    margin-top: 10px;
+}
+.icons
+{
+    cursor: pointer;
+}
+#myprogressbar
+{
+    width: 80%;
+    cursor: pointer;
+}
+.songlistcontainer
+{
+    margin-top: 50px;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color:#171717;
+    color:white;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px ;
+    opacity: 90%;
+    
+
+}
+.songitem img{
+    width: 43px;
+    margin:0px 23px ;
+    border-radius: 30px;
+    
+}
+.timestamp
+{
+ margin : 0px 15px;
+ cursor: pointer;
+}
+.timestamp i
+{
+ margin-left: 8px;
+ cursor: pointer;
+}
+.songInfo
+{
+    position: absolute;
+    left:10vw;
+    font-family:'Open Sans', sans-serif;
+
+}
+.songInfo img
+{
+    opacity: 0;
+    transition:opacity 0.4s ease-in;
+}
+#heading
+{
+    margin-left: 10px;
+        color: #daebec;
+        text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+                 0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+                 0 0 40px #A5F1FF;
+
+}
+.author
+{
+ color: white;
+ text-align: right;
+ margin-right: 20px;
+ opacity: 50%;
+ font-style:italic ;
+}
+ 
